@@ -1,4 +1,78 @@
 /* Global Styles */
+/* font-family: 'Work Sans', sans-serif; */
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.section-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+/* navbar */
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-default {
+  background: rgba(0,0,0,.0);
+  border: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 2px;
+  color: #ffffff;
+  -webkit-transition: all .35s ease-in;
+  -moz-transition: all .35s ease-in;
+  -o-transition: all .35s ease-in;
+  transition: all .35s ease-in;
+}
+
+/* .navbar-default .navbar-nav>li>a:focus {
+  color: #ffffff;
+  font-size: 20px;
+} */
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#i-am {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/* home section */
+.hero {
+  background-image: url("../img/bg_0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.s1 {
+  background-image: url("../img/bg_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.s2 {
+  background-image: url("../img/bg_2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.s3 {
+  background-image: url("../img/bg_3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
 /* Small Screens */
 @media only screen and (min-width : 768px) {
